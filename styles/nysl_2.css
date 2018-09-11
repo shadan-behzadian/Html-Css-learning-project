@@ -1,0 +1,398 @@
+/* first three pages common style */
+
+.title {
+    font-size: 50px;
+    font-family: inherit;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.main_photo {
+    position: relative;
+    background-image: url(../design2_image1.jpeg);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+}
+
+.middle_page_bar {
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    text-align: center;
+    padding:0px;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 100px;
+    padding-top: 20px;
+    vertical-align: top;
+   
+}
+
+
+
+.logo img {
+    width: 100%;
+}
+
+/* End of first three pages common style*/
+
+
+
+
+
+
+/* navigation bottoms in all pages */
+
+.navBarBtn {
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: auto;
+    top: 5px;
+    padding: 0px;
+    width: 650px;
+    position: fixed;
+    z-index: 2;
+
+}
+
+.navBarBtn a:hover{
+    box-shadow:inset 0 0 10px 1px;
+}
+
+.navBarBtn a {
+    color: white;
+    text-decoration:none;
+    cursor: pointer;
+      padding: 10px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+    border-style: inset;
+    border: none;
+      
+}
+
+
+
+.active_btn {
+    background-color: forestgreen;
+      border-radius: 10px;
+}
+
+
+.off_btn {
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+/* end of navigation bottons */
+
+
+/* body_text in home, about and contact pages */
+
+.body_text_home_page {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.body_text_about_page {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    padding-left: 20px;
+    width: 800px;
+}
+
+
+.body_text_contact_page {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-top: 40px;
+    vertical-align: top;
+}
+
+/* End of body_text in home, about and contact pages */
+
+/*last three pages common items */
+
+.last_three_page_body_design {
+    background-image: url(../infogame.jpeg);
+    background-size: cover;
+    
+}
+
+.logo_position_changed {
+    display:inline-block;
+    margin-left: 160px;
+    width: 100px;
+    vertical-align: top;
+}
+
+.logo_position_changed img {
+    width: 100%;
+    
+}
+
+/*end of last three pages common items */
+
+
+/* rules and policy Lists */
+
+
+.title_gameinfo_page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding-left: 20px;
+}
+
+
+ul {
+    list-style-type: square;
+    margin-top: 0px;
+}
+
+.order_list_style_alphabet {
+    list-style-type: lower-latin;
+}
+
+
+
+.ol {
+   margin-top:0px;
+}
+
+
+
+.rules_and_policy_body_text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+
+.unordered_list_style_circle_exception{
+    list-style-type: circle;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* end of rules and policy Lists */
+
+
+
+/*gameinfo page*/
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.tables_1_and_2 {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+    margin-bottom: 20px;
+}
+
+.col1_text_alignment {
+    text-align: center;
+}
+
+.october_box_size{
+    width:157px;
+}
+
+.game-location-title {
+    font-size: 25px;
+}
+
+.game_location_table {
+    width: 600px;
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+td {
+    padding-left: 20px;
+    vertical-align: middle; 
+}
+
+
+
+caption {
+    margin-left: 20px;
+    text-align: left;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+th {
+    font-size: 22px;
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 20px;
+    width: 150px;
+}
+
+
+tr {
+    padding-bottom: 10px;
+
+}
+
+tr:hover { 
+    background:yellow; 
+}
+
+
+.contact_gameinfo {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+}
+
+
+.contact_gameinfo p {
+    display: inline-block;
+}
+
+.contact_gameinfo a {
+    display: inline-block;
+    padding-left: 100px;
+}
+
+
+.gameinfo_page_footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+    padding-left: 60px;
+}
+
+iframe{ width:200px;
+    height:100px; 
+    }
+
+/* End of gameinfo page*/
+
+
+/*Registration form page */
+
+
+.title-Registration-Form {
+    text-align: center;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 7px;
+    height: 20px;
+    cursor:help-resize;
+}
+
+
+
+.form_body_style {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-color: darkgrey;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 25px;
+
+}
+
+
+.parent {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.child {
+    flex-grow:1 ;
+    flex-shrink:1;
+    margin: 5px; 
+}
+
+
+
+
+.childFull {
+    flex-basis: 100%;
+    margin:5px;
+}
+
+
+.all_form_input_boxes{
+    width: 100%;
+}
+
+
+.choice_display_column{    
+    display: flex;
+    flex-direction: column;}
+
+.choice_columns_margin{
+    margin-left: 60px;
+}
+
+.already_have_an_unifrom{
+   margin-top: 18px;
+}
+
+.guardian_permission_text {
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0px;
+}
+
+
+.size {
+    display: flex;
+
+}
+
+.size_columns{
+    display: flex;
+   
+}
+
+.submit_btn{
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+  font-family: fantasy;
+    vertical-align: middle;
+    
+}
+
+/*end of Registration form page */

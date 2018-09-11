@@ -1,0 +1,96 @@
+body{background-color:antiquewhite;}
+.bigfoto{
+    background-image:url("../copy%20cropped.jpeg");
+    position: absolute;
+    top:0px;
+    right:0px;
+    width: 50%;
+    height: 1000px;
+    margin: 0px;
+    background-size: cover;
+    padding: 0px;
+    
+}
+
+.title{color:black;
+       font-family:"casual"; 
+font-size: 40px;
+margin-left: 15px;
+padding: 0px;}
+
+.upcoming{
+    color: black;
+    font-size: 30px;
+    margin-left: 15px;
+}
+.logo {
+    position: absolute;
+    top: 5px;
+    left:543px;
+width: 7%;
+}
+
+.logo img {
+width: 100%;
+}
+
+.perfect {
+position: absolute;
+    top: 30px;
+    right: 150px;
+    
+}
+
+.perfect a {
+    text-decoration:none;
+    
+}
+.navBarBtn {
+    padding: 10px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.home{
+
+    text-align:center;
+    
+background-color: white;
+border-style:inset;
+}
+
+.about {
+    
+    text-align:center;
+    
+background-color: white;
+border-style: inset;
+}
+
+.contact{
+    
+    
+    text-align:center;
+    
+background-color: white;
+border-style: inset;
+}
+
+.awesome1{
+font-family:serif;
+width: 50%;
+font-size: 20px;
+margin-top: 30px;
+margin-left: 20px;}
+
+
+
+.allinfo {
+    width: 30%;
+    margin-left:15px;
+    color:black;
+}
+
+.contactinfo{width: 30%;
+color:black;
+margin-left: 20px;}

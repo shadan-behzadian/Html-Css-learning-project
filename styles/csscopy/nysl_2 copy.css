@@ -1,0 +1,227 @@
+.title {
+    font-size: 60px;
+    font-family: inherit;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.bigfoto {
+    position: relative;
+    background-image: url(../design2_image1.jpeg);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.upcoming {
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    text-align: center;
+    padding=0px;
+}
+
+.logo {
+    position: absolute;
+    top: 700px;
+    width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+.perfect {
+ margin-left: 400px;
+    position: fixed;
+}
+
+.perfect a {
+    color: white;
+    text-decoration: none;
+}
+
+.exprulespol{
+    margin-left:100px ;
+}
+
+
+.navBarBtn {
+    padding: 10px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+    border-style: outset;
+}
+
+.active {
+    background-color: forestgreen;
+}
+
+
+.btn {
+    background-color: dodgerblue;
+}
+
+.awesome1 {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+
+.aboutinfo1 {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.aboutinfo2 {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.aboutinfo3 {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.contactinfo {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+/* Lists  Rules*/
+
+.titleRule {
+    text-align: center;
+}
+
+.titlePol {
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    margin-top: 0px;
+}
+
+.part1 {
+    list-style-type: lower-latin;
+}
+
+.fifa {
+    margin: 0px;
+}
+
+ol. {
+    margin-top: =0px;
+}
+
+.expbody {
+    margin: 10px 300px;
+    font-family: inherit;
+    background-image: url(../design2_image1.jpeg);
+    background-size: cover;
+}
+
+.exepction {
+    list-style-type: circle;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.newbtn {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+/*gameinfo*/
+
+
+.gameinfobody {
+    background-image: url(../infogame.jpeg);
+    background-size: cover;
+}
+
+
+
+.underline {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 32%;
+    margin-bottom: 30px;
+
+}
+
+
+.col1 {
+    text-align: center;
+}
+
+
+td
+ {
+    border: 0px outset black;
+    padding-left: 25px;
+}
+
+.emptyRow {
+    height: 30px;
+}
+
+.exphead{padding:0px;}
+
+
+
+
+th {
+    font-size: 22px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+}
+tr {
+    padding: 10px;
+}
+
+
+
+.contactgameinfo {
+    list-style-type: none;
+    
+}
+
+.contactgameinfo td{padding-left:100px;
+margin-left:0px;
+}
+
+
+.gameLocations tr {
+    padding-left: 0px;
+}
+
+.space{
+    padding-left:70px;
+}
+
+.MoreInfo{
+    margin-left: 32%
+}
+
+.boldpart{
+    font-weight: 200;
+}
